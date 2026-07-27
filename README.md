@@ -353,7 +353,7 @@ toggleLabel.Name = "ToggleLabel"
 toggleLabel.Size = UDim2.new(1, -40, 0, 20)
 toggleLabel.Position = UDim2.new(0, 20, 0, 16)
 toggleLabel.BackgroundTransparency = 1
-toggleLabel.Text = "Colisão"
+toggleLabel.Text = "Noclip"
 toggleLabel.Font = Enum.Font.GothamMedium
 toggleLabel.TextSize = 16
 toggleLabel.TextColor3 = COLOR_TEXT
@@ -446,7 +446,7 @@ speedLabel.Parent = page2
 local speedPresets = {
 	{ name = "Normal", value = 16 },
 	{ name = "Rápido", value = 28 },
-	{ name = "Turbo",  value = 45 },
+	{ name = "Turbo",  value = 99 },
 }
 
 local function setWalkSpeed(value)
